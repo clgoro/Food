@@ -10,6 +10,7 @@ gem "paperclip", "~> 5.0.0"
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
+gem 'bcrypt', '~> 3.1.7'
 
 # new gems ONLINE
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

@@ -8,4 +8,11 @@ Rails.application.routes.draw do
   get 'posts/:id/edit' => 'posts#edit'
   put 'posts/:id' => 'posts#update'
   delete 'posts/:id' => 'posts#destroy'
+
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+    get '/signup' => 'users#new'
+    post '/users' => 'users#create'
 end
